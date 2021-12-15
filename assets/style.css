@@ -1,0 +1,33 @@
+body{
+    background: #093028;
+}
+.list{
+    list-style-type:none
+}
+.container{
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 10%;
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 25px;
+    box-shadow: -7px 10px black;
+}
+.btn{
+    background-color: white;
+    color: #093028;
+    height: 40px;
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid #093028;
+    transition: 150ms;
+    font-size: 20px;
+}
+.btn:hover{
+    color: white;
+    background-color: #093028;
+    border: 3px solid white;
+}
